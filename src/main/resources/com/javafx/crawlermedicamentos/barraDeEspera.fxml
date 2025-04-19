@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.control.ProgressIndicator?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" stylesheets="@../../../CSS/estilosBarraDeEspera.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.javafx.crawlermedicamentos.BarraDeEsperaController">
+   <children>
+       <ProgressBar fx:id="progressBar" layoutX="200.0" layoutY="264.0" prefWidth="200.0" AnchorPane.leftAnchor="200.0" AnchorPane.rightAnchor="200.0" />
+       <ProgressIndicator fx:id="progressIndicator" layoutX="288.0" layoutY="282.0" AnchorPane.leftAnchor="274.0" AnchorPane.rightAnchor="274.0" />
+       <Label layoutX="213.0" layoutY="14.0" text="Tus Resultados están cargando. ." AnchorPane.leftAnchor="200.0" AnchorPane.rightAnchor="200.0" />
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="199.0" layoutY="79.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Media/Clock.gif" />
+         </image></ImageView>
+   </children>
+</AnchorPane>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="rootPaneMenu" prefHeight="400.0" prefWidth="600.0" stylesheets="@../../../CSS/estilosMenu.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.javafx.crawlermedicamentos.MenuController">
+    <children>
+        <SplitPane dividerPositions="0.3" prefHeight="400.0" prefWidth="600.0">
+            <items>
+                <!-- Panel izquierdo con imagen -->
+                <AnchorPane>
+                    <children>
+                        <ImageView fx:id="ImageViewMenu" fitHeight="452.0" fitWidth="180.0" layoutY="62.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="0.39999999999997726" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="62.0">
+                            <image>
+                                <Image url="@../../../Media/ImageMenu.png" />
+                            </image>
+                        </ImageView>
+                  <Label fx:id="labelMenuPrincipal" layoutX="46.0" layoutY="14.0" text="Menú" />
+                    </children>
+                </AnchorPane>
+
+                <!-- Panel derecho con opciones -->
+                <AnchorPane prefHeight="426.0" prefWidth="412.0">
+                    <children>
+                        <Button fx:id="btnSelectBuscarMedicamento" layoutX="31.0" layoutY="209.0" onAction="#handleBuscarMedicamento" prefHeight="44.0" prefWidth="198.0" text="Buscar Medicamento" AnchorPane.bottomAnchor="208.59999999999997" AnchorPane.leftAnchor="31.0" AnchorPane.rightAnchor="185.0" AnchorPane.topAnchor="209.0" />
+                        <ImageView fx:id="ImageViewBuscarMedicamento" fitHeight="138.0" fitWidth="170.0" layoutX="228.0" layoutY="162.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="162.39999999999998" AnchorPane.leftAnchor="228.0" AnchorPane.rightAnchor="14.0" AnchorPane.topAnchor="162.0">
+                            <image>
+                                <Image url="@../../../Media/ImageBuscarMedicamento.png" />
+                            </image>
+                        </ImageView>
+                    </children>
+                </AnchorPane>
+            </items>
+        </SplitPane>
+    </children>
+</AnchorPane>

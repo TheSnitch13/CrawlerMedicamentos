@@ -1,0 +1,67 @@
+AnchorPane{
+    -fx-background-color: #0A090C;
+}
+
+#LabelResultados {
+    -fx-font-weight: bold;
+    -fx-font-size: 32px;
+    -fx-text-fill: #F0EDEE;
+    -fx-background-color: #0A090C;
+}
+
+Label {
+    -fx-font-weight: bold;
+    -fx-font-size: 20px;
+    -fx-text-fill: #F0EDEE;
+    -fx-background-color: #07393C;
+}
+
+Button {
+    -fx-background-color: #2C666E;
+    -fx-text-fill: #F0EDEE;
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+    -fx-background-radius: 15 0 0 15;
+    -fx-padding: 8 16 8 16;
+    -fx-border-color: transparent;
+}
+#tableViewResultados{
+    -fx-background-color: #07393C;
+}
+
+Button:hover {
+    -fx-background-color: #90DDF0;
+    -fx-text-fill: white;
+    -fx-background-radius: 15 0 0 15;
+    -fx-font-weight: bold;
+    -fx-cursor: hand;
+}
+
+#ColumnEnlace:hover {
+    -fx-background-color: #90DDF0;
+    -fx-text-fill: white;
+    -fx-cursor: hand;
+}
+
+.table-cell {
+    -fx-text-fill: #F0EDEE;
+    -fx-alignment: CENTER;
+    -fx-font-weight: bold;
+}
+
+.table-row-cell:hover .table-cell {
+    -fx-text-fill: #0A090C;
+}
+
+.table-row-cell {
+    -fx-background-color: #2C666E;
+
+}
+
+.table-row-cell:odd {
+    -fx-background-color: #3F7A82;
+}
+
+.table-row-cell:hover {
+    -fx-background-color: #90DDF0;
+}

@@ -1,0 +1,18 @@
+Label {
+    -fx-font-weight: bold;
+    -fx-font-size: 25px;
+    -fx-text-fill: #F0EDEE;
+}
+
+AnchorPane {
+    -fx-background-color: #0A090C;
+}
+
+#progressBar {
+    -fx-accent: #2ecc71;
+    -fx-control-inner-background: #ecf0f1;
+}
+
+#progressIndicator {
+    -fx-progress-color: #3498db;
+}
